@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinSideAdapters", "AddinSideAdapters\AddinSideAdapters.csproj", "{2706F13D-BB2F-415B-9684-FFC57A2CB1C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInSideAdapters", "AddinSideAdapters\AddInSideAdapters.csproj", "{2706F13D-BB2F-415B-9684-FFC57A2CB1C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinSideViews", "AddinSideViews\AddinSideViews.csproj", "{EA8F8D02-E137-4406-BC74-CAF73C017E4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInSideViews", "AddinSideViews\AddInSideViews.csproj", "{EA8F8D02-E137-4406-BC74-CAF73C017E4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{DDEEA81E-0710-44FF-B229-8A5AFDE022BF}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostSideViews", "HostSideVi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addins", "Addins", "{8D8B29E9-0EAB-49A4-AADC-E556D43E325F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinFirst", "Addins\AddinsFirst\AddinFirst.csproj", "{C59AECE1-481F-477F-98DA-A454CBD1D134}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInFirst", "Addins\AddinsFirst\AddInFirst.csproj", "{C59AECE1-481F-477F-98DA-A454CBD1D134}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostWpfApplication", "HostWpfApplication\HostWpfApplication.csproj", "{571EF0AC-0274-4A13-AD42-EC5186557489}"
 EndProject

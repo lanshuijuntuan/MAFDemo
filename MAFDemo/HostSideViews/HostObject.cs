@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace HostSideViews
 {
-    public abstract class ImageProcessorHostView 
+    public abstract class HostObject
     {
-        public abstract byte[] ProcessImageBytes(byte[] pixels);
-
-         
+        public abstract void ReportProgress(float percent);
     }
 }

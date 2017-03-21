@@ -7,8 +7,8 @@
     <ProjectGuid>{C59AECE1-481F-477F-98DA-A454CBD1D134}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AddinsFirst</RootNamespace>
-    <AssemblyName>AddinsFirst</AssemblyName>
+    <RootNamespace>AddInFirst</RootNamespace>
+    <AssemblyName>AddInFirst</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AddinSideViews\AddinSideViews.csproj">
+    <ProjectReference Include="..\..\AddinSideViews\AddInSideViews.csproj">
       <Project>{ea8f8d02-e137-4406-bc74-caf73c017e4c}</Project>
-      <Name>AddinSideViews</Name>
+      <Name>AddInSideViews</Name>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
