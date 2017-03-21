@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HostSideViews
 {
-    public class Class1
+    public abstract class ImageProcessorHostView 
     {
+        public abstract byte[] ProcessImageBytes(byte[] pixels);
     }
 }
