@@ -25,6 +25,6 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <Button Grid.Column="1" Grid.Row="0" Click="Button_Click">Go</Button>
-        <ProgressBar Name="mProgress" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Height="25" Margin="2"></ProgressBar>
+        <ProgressBar Name="mProgress" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Height="25" Margin="2" Maximum="100" Minimum="0"></ProgressBar>
     </Grid>
 </Window>

@@ -55,7 +55,8 @@ namespace HostWpfApplication
                 return;
             }
             HostSideViews.ImageProcessorHostView addin = token.Activate<HostSideViews.ImageProcessorHostView>(AddInSecurityLevel.Internet);
-            
+
+            addin.Initialize(mhost);
             byte[] changedPixels = addin.ProcessImageBytes(originalPixels);
 
             BitmapSource newSource = BitmapSource.Create(source.PixelWidth, source.PixelHeight, source.DpiX, source.DpiY, source.Format, source.Palette, changedPixels, stride);

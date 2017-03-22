@@ -1,29 +1,29 @@
 ﻿using System;
 using System.AddIn.Pipeline;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace HostSideAdapters
 {
-    [HostAdapter]
-    public class HostObjectContractToViewAdapter:HostSideViews.HostObject
+   
+    public class HostObjectContractToViewAdapter:ContractBase,Contracts.IHostObjectContract
     {
 
-        private Contracts.IHostObjectContract contract;
+        private HostSideViews.HostObject view;
 
-        private ContractHandle contractHandle;
-        public HostObjectContractToViewAdapter(Contracts.IHostObjectContract mHostObjectContract)
+       
+        public HostObjectContractToViewAdapter(HostSideViews.HostObject mHostObject)
         {
-            contract = mHostObjectContract;
-            contractHandle = new ContractHandle(contract);
+            view = mHostObject;
         }
 
 
-        public override void ReportProgress(float percent)
+        public void ReportProgress(float percent)
         {
-            contract.ReportProgress(percent);
+            view.ReportProgress(percent);
         }
     }
 }

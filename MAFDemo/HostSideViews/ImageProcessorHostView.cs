@@ -10,6 +10,6 @@ namespace HostSideViews
     {
         public abstract byte[] ProcessImageBytes(byte[] pixels);
 
-         
+        public abstract void Initialize(HostSideViews.HostObject host);
     }
 }
